@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="absolute left-14 bottom-96">
       <TechWear />
     </div>
-    <div className="absolute left-14 bottom-0">
+    <div className="absolute left-14 bottom-0 overflow-y-hidden max-h-56">
       <Slamtings />
     </div>
 
