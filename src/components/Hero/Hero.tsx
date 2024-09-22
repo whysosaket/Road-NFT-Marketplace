@@ -3,6 +3,7 @@ import Gradient from "../../assets/bg.png";
 import Gradient2 from "../../assets/bg2.png";
 import TechWear from "./TechWear";
 import Slamtings from "./Slamtings";
+import Me from "./Me";
 
 const Hero = () => {
   return (
@@ -17,6 +18,10 @@ const Hero = () => {
     </div>
     <div className="absolute left-14 bottom-0">
       <Slamtings />
+    </div>
+
+    <div className="absolute right-14 bottom-0">
+      <Me />
     </div>
     </div>
   )
