@@ -7,8 +7,11 @@ const OurOfferings = () => {
         <FaPlus size={25} className="my-auto text-p1" />
         WHAT WE OFFER
       </h1>
-      <div className="flex md:justify-end">
-        <div className="bg-p1 h-28 my-8 w-[1px]"></div>
+      <div className="flex md:block mt-8 md:mt-0">
+
+      
+      <div className="flex md:justify-end mr-5 md:mr-0">
+        <div className="bg-p1 h-28 md:my-8 w-[1px]"></div>
       </div>
       <div className="flex flex-col gap-8">
         <h1 className="md:text-right">INTELLIGENT NFTS</h1>
@@ -16,6 +19,7 @@ const OurOfferings = () => {
         <h1 className="md:text-right">BLOCKCHAIN</h1>
         <h1 className="md:text-right">CRYPTOCURRENCY</h1>
         <h1 className="md:text-right">META SHOWDOWN</h1>
+      </div>
       </div>
     </div>
   );
