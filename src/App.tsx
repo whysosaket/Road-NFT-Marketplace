@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer"
 import Hero from "./components/Hero/Hero"
 import Impact from "./components/Impact/Impact"
 import Mission from "./components/Mission/Mission"
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Services />
       <Impact />
+      <Footer />
     </div>
   )
 }
