@@ -10,6 +10,10 @@
   src: url("../fonts/nasalization-rg.otf");
 }
 
+body{
+  background-color: #151D6Eff;
+  color: white;
+}
 
 html {
   overflow: scroll;

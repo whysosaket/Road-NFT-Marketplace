@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#F195F0',
-        secondary: '#FA56F7',
+        p1: '#D5DDF6ff',
+        p2: '#1C38A5ff',
+        p3: '#151D6Eff',
+        p4: '#34619Fff',
+        p5: '#5A71A4ff',
       },
       fontFamily: {
         inter: ["Inter", "system-ui"],
