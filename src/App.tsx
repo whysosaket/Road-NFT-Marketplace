@@ -10,7 +10,7 @@ import Services from "./components/Sevices/Services"
 function App() {
 
   return (
-    <div className="px-10 py-6 font-nasa">
+    <div className="px-4 md:px-10 py-6 font-nasa">
       <Navbar />
       <Hero />
       <Mission />
