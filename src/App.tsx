@@ -1,4 +1,5 @@
 import Hero from "./components/Hero/Hero"
+import Impact from "./components/Impact/Impact"
 import Mission from "./components/Mission/Mission"
 import Navbar from "./components/Navbar"
 import Products from "./components/Products/Products"
@@ -14,6 +15,7 @@ function App() {
       <Mission />
       <Products />
       <Services />
+      <Impact />
     </div>
   )
 }
