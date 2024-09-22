@@ -8,8 +8,8 @@ const Navbar = () => {
     <motion.div
       initial={{ y: -200, opacity: 0, scale: 0 }}
       animate={{ y: 0, opacity: 1, scale: 1 }}
-      transition={{ duration: 0.7, delay: 0.1 }}
-      className="flex justify-between align-middle"
+      transition={{ duration: 0, delay: 0.1 }}
+      className="flex justify-between align-middle my-div"
     >
       <div className="my-auto">
         <CgMenuGridO size={25} />

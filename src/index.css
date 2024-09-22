@@ -13,6 +13,11 @@
 body{
   background-color: #151D6Eff;
   color: white;
+  
+}
+
+.my-div, .a{
+  transition: all 0.75s;
 }
 
 html {
