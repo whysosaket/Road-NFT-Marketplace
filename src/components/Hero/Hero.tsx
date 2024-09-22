@@ -2,6 +2,7 @@ import Image from "../../assets/img1.png";
 import Gradient from "../../assets/bg.png";
 import Gradient2 from "../../assets/bg2.png";
 import TechWear from "./TechWear";
+import Slamtings from "./Slamtings";
 
 const Hero = () => {
   return (
@@ -11,8 +12,11 @@ const Hero = () => {
         <img src={Gradient} className="w-full mx-auto absolute -z-10" />
         <img src={Gradient2} className="w-full mx-auto absolute top-0 -z-10" />
     </div>
-    <div className="absolute left-14 bottom-80">
-    <TechWear />
+    <div className="absolute left-14 bottom-96">
+      <TechWear />
+    </div>
+    <div className="absolute left-14 bottom-0">
+      <Slamtings />
     </div>
     </div>
   )
