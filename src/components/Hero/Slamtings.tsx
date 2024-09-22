@@ -12,8 +12,8 @@ const Slamtings = () => {
             <h1 className="my-2">SLAMTHINGS</h1>
             <h1 className="text-right my-2">DISCOVER</h1>
             <div className="flex justify-end gap-8 mt-2 mb-6 cursor-pointer">
-                <FaMinus />
-                <FaPlus />
+                <FaMinus className="hover:text-p1" />
+                <FaPlus className="hover:text-p1" />
             </div>
         </div>
     </div>
