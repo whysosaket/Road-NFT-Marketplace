@@ -6,7 +6,10 @@ import OurOfferings from "./OurOfferings";
 const Services = () => {
   return (
     <div className="pt-24 pl-4 w-full">
-        <img src={Gradient} className="w-full mx-auto absolute -right-[50rem] -z-10 opacity-50 hidden md:block" />
+      <img
+        src={Gradient}
+        className="w-full mx-auto absolute -right-[0rem] -z-10 opacity-50 hidden md:block"
+      />
       <div className="">
         <div className="w-20 -ml-8 rotate-90 text-p1">0.0.3</div>
       </div>
